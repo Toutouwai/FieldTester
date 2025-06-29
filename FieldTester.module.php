@@ -103,6 +103,7 @@ EOT;
 			'title' => $field->label,
 			'name' => $page_name,
 		]);
+		$p->addStatus(Page::statusHidden);
 		$p->save();
 
 		// Redirect to edit page
