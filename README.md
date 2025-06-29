@@ -1,6 +1,8 @@
 # Field Tester
 
-Adds an option to Edit Field for creating a template and page to test the field. The added template consists of only the field in question (plus the "Title" field) and the page is added as a child of the Home page with a status of "hidden".
+Adds an option to Edit Field for creating a template and page to test the field. This can be useful when debugging a field or inputfield.
+
+The added template consists of only the field in question (plus the "Title" field) and the page is added as a child of the Home page with a status of "hidden".
 
 If the test template and page already exist then a link to the testing page and an option to permanently delete the testing template and page is added instead.
 
